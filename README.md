@@ -24,7 +24,7 @@ function closeNav() {
     <a href="#">Add A Library</a>
     <a href="#">What's Trending?</a>
     <a href="#">Book Quiz!</a>
-  <a href="#">About Us</a>
+#  <a href="#">About Us</a>
 </div>
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
@@ -96,4 +96,13 @@ body{
   .sidenav a {font-size: 18px;}
 }
 
+#java starts here
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
 
